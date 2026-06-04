@@ -2,7 +2,7 @@
 
 > Учебный проект: одностраничный сайт (лендинг) для сервисного центра «КомпМастер»
 
-🔗 **Live Demo:** [https://eLbiii.github.io/zovchik](https://eLbiii.github.io/zovchik)
+🔗 **Live Demo:** [https://elbiii.github.io/zovchik](https://elbiii.github.io/zovchik)
 
 ---
 
