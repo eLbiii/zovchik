@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>КомпМастер — Профессиональный ремонт компьютеров в Москве</title>
+  <meta name="description" content="Профессиональный ремонт компьютеров и ноутбуков в Москве. Диагностика бесплатно. Опыт 8 лет, 1500+ выполненных заказов. Звоните: +7 (999) 123-45-67">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">РЕМОНТ КОМПЬЮТЕРОВ</a>
+
+      <nav class="nav" id="nav" role="navigation" aria-label="Основное меню">
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#pricing">Цены</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="theme-btn" id="themeToggle" aria-label="Переключить тему">🌙</button>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 0. Hero -->
+    <section id="hero" class="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge">⚡ Быстрый ремонт в день обращения</span>
+          <h1 class="hero__title">Профессиональный<br>ремонт компьютеров<br>и ноутбуков</h1>
+          <p class="hero__subtitle">Диагностика бесплатно · Гарантия на все работы · Опыт 8 лет</p>
+          <div class="hero__actions">
+            <a href="#contacts" class="btn btn--lg">Оставить заявку</a>
+            <a href="#services" class="btn btn--outline btn--lg">Наши услуги</a>
+          </div>
+          <div class="hero__stats">
+            <div class="hero__stat"><strong>1500+</strong><span>заказов</span></div>
+            <div class="hero__stat"><strong>8 лет</strong><span>опыта</span></div>
+            <div class="hero__stat"><strong>98%</strong><span>довольных клиентов</span></div>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="images/masters.webp" alt="Команда мастеров по ремонту компьютеров">
+        </div>
+      </div>
+    </section>
+
+    <!-- 1. О нас -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">О нас</h2>
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="images/master.webp" alt="Инженер ремонтирует ПК">
+          </div>
+          <div class="about__text">
+            <h3>Профессиональный ремонт с гарантией</h3>
+            <p>Мы команда сертифицированных специалистов с опытом более 8 лет. Занимаемся диагностикой, ремонтом и обслуживанием компьютеров и ноутбуков любой сложности. Работаем быстро, честно и всегда консультируем по оптимальным решениям.</p>
+            <ul class="about__list">
+              <li>✅ Бесплатная диагностика перед ремонтом</li>
+              <li>✅ Гарантия на все виды работ до 12 месяцев</li>
+              <li>✅ Выезд мастера на дом или в офис</li>
+              <li>✅ Работаем без выходных с 9:00 до 21:00</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Услуги -->
+    <section id="services" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Наши услуги</h2>
+        <p class="section__subtitle">Решаем любые проблемы с вашей техникой</p>
+        <div class="services__grid">
+          <article class="card">
+            <div class="card__image">
+              <img src="images/diagnostika.jpg" alt="Диагностика компьютера">
+            </div>
+            <h3>Диагностика</h3>
+            <p>Бесплатная первичная диагностика. Выявим неисправность и назовём точную стоимость ремонта до начала работ.</p>
+          </article>
+          <article class="card">
+            <div class="card__image">
+              <img src="images/apparatniyremont.jpg" alt="Аппаратный ремонт">
+            </div>
+            <h3>Аппаратный ремонт</h3>
+            <p>Замена матриц, клавиатур, жёстких дисков, блоков питания, материнских плат и других компонентов.</p>
+          </article>
+          <article class="card">
+            <div class="card__image">
+              <img src="images/ystanovkaPOandWindows.jpg" alt="Установка ПО">
+            </div>
+            <h3>Установка ПО и Windows</h3>
+            <p>Установка и активация ОС, драйверов, офисных пакетов, антивирусов и профессионального софта.</p>
+          </article>
+          <article class="card">
+            <div class="card__image">
+              <img src="images/ChistkaPKuOslyzhivanie.jpg" alt="Чистка и обслуживание">
+            </div>
+            <h3>Чистка и обслуживание</h3>
+            <p>Продувка от пыли, замена термопасты, оптимизация автозагрузки для предотвращения перегрева.</p>
+          </article>
+          <article class="card">
+            <div class="card__image">
+              <img src="images/nastroykaSETIuWIFI.png" alt="Настройка сети и Wi-Fi">
+            </div>
+            <h3>Настройка сети и Wi-Fi</h3>
+            <p>Подключение к интернету, настройка роутеров, локальных сетей, принтеров и удалённого доступа.</p>
+          </article>
+          <article class="card">
+            <div class="card__image">
+              <img src="images/vostanovlenieDannix.jpg" alt="Восстановление данных">
+            </div>
+            <h3>Восстановление данных</h3>
+            <p>Спасём ваши фото, документы и важные файлы с повреждённых или случайно отформатированных носителей.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Цены -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 class="section__title">Цены на услуги</h2>
+        <p class="section__subtitle">Прозрачная стоимость без скрытых доплат</p>
+        <div class="pricing__grid">
+
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon">🔍</span>
+              <h3>Базовый</h3>
+              <p class="pricing-card__sub">Диагностика и ПО</p>
+            </div>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">от 500 ₽</span>
+            </div>
+            <ul class="pricing-card__list">
+              <li>✓ Бесплатная диагностика</li>
+              <li>✓ Установка Windows</li>
+              <li>✓ Установка драйверов</li>
+              <li>✓ Оптимизация системы</li>
+              <li class="muted">✗ Аппаратный ремонт</li>
+              <li class="muted">✗ Выезд на дом</li>
+            </ul>
+            <a href="#contacts" class="btn btn--outline">Заказать</a>
+          </div>
+
+          <div class="pricing-card pricing-card--featured">
+            <div class="pricing-card__badge">Популярное</div>
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon">🔧</span>
+              <h3>Стандарт</h3>
+              <p class="pricing-card__sub">Ремонт и обслуживание</p>
+            </div>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">от 1 500 ₽</span>
+            </div>
+            <ul class="pricing-card__list">
+              <li>✓ Бесплатная диагностика</li>
+              <li>✓ Аппаратный ремонт</li>
+              <li>✓ Чистка и замена термопасты</li>
+              <li>✓ Установка ПО</li>
+              <li>✓ Настройка сети</li>
+              <li class="muted">✗ Выезд на дом</li>
+            </ul>
+            <a href="#contacts" class="btn btn--white">Заказать</a>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <span class="pricing-card__icon">🚀</span>
+              <h3>Премиум</h3>
+              <p class="pricing-card__sub">Полное обслуживание</p>
+            </div>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">от 3 000 ₽</span>
+            </div>
+            <ul class="pricing-card__list">
+              <li>✓ Всё из «Стандарт»</li>
+              <li>✓ Выезд на дом / в офис</li>
+              <li>✓ Восстановление данных</li>
+              <li>✓ Сборка ПК под ключ</li>
+              <li>✓ Приоритетная поддержка</li>
+              <li>✓ Гарантия 12 месяцев</li>
+            </ul>
+            <a href="#contacts" class="btn btn--outline">Заказать</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Портфолио (Слайдер) -->
+    <section id="portfolio" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Примеры работ</h2>
+        <p class="section__subtitle">Некоторые из наших последних проектов</p>
+        <div class="slider">
+          <button class="slider__btn slider__btn--prev" aria-label="Назад">&#10094;</button>
+          <div class="slider__track-wrapper">
+            <div class="slider__track" id="sliderTrack">
+              <div class="slide">
+                <img src="images/zamenamatritsi.webp" alt="Замена матрицы">
+                <div class="slide__caption">Замена матрицы ноутбука Lenovo</div>
+              </div>
+              <div class="slide">
+                <img src="images/sborkaPK.webp" alt="Сборка ПК">
+                <div class="slide__caption">Сборка и настройка игрового ПК под ключ</div>
+              </div>
+              <div class="slide">
+                <img src="images/vostanovlenie.webp" alt="Восстановление данных">
+                <div class="slide__caption">Восстановление 500 Гб данных с повреждённого HDD</div>
+              </div>
+              <div class="slide">
+                <img src="images/zamena.webp" alt="Чистка системы охлаждения">
+                <div class="slide__caption">Полная чистка и замена термоинтерфейса в MacBook</div>
+              </div>
+              <div class="slide">
+                <img src="images/ChistkaPILI.jpg" alt="Чистка ноутбука от пыли">
+                <div class="slide__caption">Профессиональная чистка ноутбука от пыли</div>
+              </div>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn--next" aria-label="Вперёд">&#10095;</button>
+        </div>
+        <div class="slider__dots" id="sliderDots"></div>
+      </div>
+    </section>
+
+    <!-- 5. Отзывы -->
+    <section id="reviews" class="section">
+      <div class="container">
+        <h2 class="section__title">Отзывы клиентов</h2>
+        <p class="section__subtitle">Что говорят о нас наши клиенты</p>
+        <div class="reviews__grid">
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Отличный сервис! Принёс ноутбук с мёртвым экраном — сделали за 2 часа. Цена честная, всё объяснили подробно. Однозначно рекомендую!»</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">А</div>
+              <div>
+                <strong>Алексей К.</strong>
+                <span>Замена матрицы</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Восстановили все данные с диска, который я считала безвозвратно потерянным. Спасибо огромное, это были очень важные файлы!»</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">М</div>
+              <div>
+                <strong>Мария В.</strong>
+                <span>Восстановление данных</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★★</div>
+            <p class="review-card__text">«Обратился по поводу медленной работы ПК. Почистили, заменили термопасту, оптимизировали систему — компьютер летает как новый!»</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">Д</div>
+              <div>
+                <strong>Дмитрий Н.</strong>
+                <span>Чистка и обслуживание</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="review-card__stars">★★★★☆</div>
+            <p class="review-card__text">«Собрали игровой ПК под ключ в рамках бюджета. Подобрали оптимальные комплектующие, всё работает отлично уже полгода.»</p>
+            <div class="review-card__author">
+              <div class="review-card__avatar">И</div>
+              <div>
+                <strong>Игорь С.</strong>
+                <span>Сборка ПК</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Контакты -->
+    <section id="contacts" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <p class="section__subtitle">Свяжитесь с нами удобным способом или оставьте заявку</p>
+        <div class="contacts__grid">
+          <div class="contacts__info">
+            <div class="contact-item">
+              <div>
+                <p>Телефон</p>
+                <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div>
+                <p>Email</p>
+                <a href="mailto:info@compmaster.ru">info@compmaster.ru</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div>
+                <p>Адрес сервиса</p>
+                <p>г. Москва, ул. Компьютерная, д. 15, оф. 3</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div>
+                <p>Режим работы</p>
+                <p>Ежедневно: 9:00 — 21:00</p>
+              </div>
+            </div>
+            <div class="socials">
+              <a href="#" class="social-link" aria-label="Telegram">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="ВКонтакте">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                  <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.862-.525-2.049-1.714-1.033-1.01-1.49-.865-1.49.283v1.432c0 .415-.164.659-1.532.659-2.26 0-4.77-1.369-6.535-3.912C4.028 11.05 3.37 8.967 3.37 8.516c0-.253.133-.489.663-.489h1.744c.493 0 .683.227.872.757.96 2.773 2.566 5.202 3.228 5.202.253 0 .368-.116.368-.754V9.896c-.082-1.356-.793-1.47-.793-1.953 0-.228.185-.457.48-.457h2.74c.414 0 .56.22.56.7v3.758c0 .413.185.56.302.56.253 0 .465-.147 1.037-.72 1.607-1.8 2.754-4.573 2.754-4.573.152-.31.407-.6.9-.6h1.745c.525 0 .639.27.525.634-.22.766-2.356 4.043-2.356 4.043-.187.308-.253.445 0 .788.185.253.793.793 1.2 1.274.745.864 1.316 1.593 1.468 2.093.135.497-.134.75-.63.75z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" placeholder="Иван Иванов">
+              <span class="error-msg">Пожалуйста, введите имя (минимум 2 символа)</span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="example@mail.ru">
+              <span class="error-msg">Введите корректный email (например: user@mail.ru)</span>
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" placeholder="Опишите вашу проблему..."></textarea>
+              <span class="error-msg">Сообщение не может быть пустым (минимум 5 символов)</span>
+            </div>
+            <button type="submit" class="btn" id="submitBtn">Отправить сообщение</button>
+            <div class="form-success" id="formSuccess">
+              <span>✅</span>
+              <p>Спасибо! Ваше сообщение отправлено. Мы свяжемся с вами в ближайшее время.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 КомпМастер. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
